@@ -1,0 +1,40 @@
+body {
+  background-image: url(/assests/img/bg_1.jpg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+/* top section */
+.top .logo {
+  line-height: 1.1;
+  font-size: 12px;
+  font-weight: 500;
+}
+.top .logo span {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 1.1;
+  transition: color 0.2s;
+}
+.top .logo:hover span {
+  color: #1eb2a6 !important;
+}
+.top .icon i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #1eb2a6;
+  transition: color 0.2s, background-color 0.2s;
+}
+.top .icon i:hover {
+  color: white;
+  background-color: #1eb2a6;
+}
