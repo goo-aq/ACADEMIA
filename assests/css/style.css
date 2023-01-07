@@ -38,3 +38,43 @@ a {
   color: white;
   background-color: #1eb2a6;
 }
+/* navbar */
+.navbar{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.navbar .nav-link{
+    font-size: 15px;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    font-weight: 500;
+}
+.navbar .active{
+    color: #1eb2a6 !important;
+}
+.navbar .get-cert{
+    width: 215px;
+    height: 73px;
+    background-color: #1eb2a6;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 1.5rem;
+    position: relative;
+    z-index: 0;
+    border: 1px solid transparent;
+}
+.navbar .get-cert::before{
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    left: -20px;
+    width: 100px;
+    background: #1eb2a6;
+    -webkit-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+    z-index: -1;
+    content: '';
+}
