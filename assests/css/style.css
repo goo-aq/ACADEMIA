@@ -5,6 +5,11 @@ body {
   background-position: top center;
   background-attachment: fixed;
 }
+h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.2;
+}
 a {
   text-decoration: none;
 }
@@ -103,5 +108,40 @@ a {
   }
   .navbar .nav-link {
     padding: 10px;
+  }
+}
+/* header */
+header {
+  padding-top: 200px;
+}
+header span {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+header p {
+  color: rgba(255, 255, 255, 0.8);
+}
+header .btn {
+  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+header .btn:hover {
+  box-shadow: none;
+}
+header .btn:first-of-type {
+  background-color: #1eb2a6 !important;
+}
+header .btn:last-of-type {
+  color: #1eb2a6;
+}
+@media (max-width: 575px) {
+  header .btn {
+    width: 100%;
+    margin-bottom: 5px;
   }
 }
