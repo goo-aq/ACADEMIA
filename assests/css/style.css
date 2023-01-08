@@ -193,3 +193,30 @@ header .btn:last-of-type {
     display: none;
   }
 }
+/* counter */
+.counter{
+    background-image: url(/assests/img/bg_3.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    padding: 6em 0;;
+}
+.counter::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+}
+.counter .icon{
+    font-size: 50px;
+}
+.counter h2{
+    font-weight: 700;
+    line-height: 1;
+}
+.counter span{
+    color: rgba(255, 255, 255, 0.9) !important;
+}
