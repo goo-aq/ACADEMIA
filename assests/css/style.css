@@ -16,6 +16,22 @@ a {
 .roboto {
   font-family: "Roboto", sans-serif;
 }
+.bg-colored {
+  background-color: #f8f8f8;
+}
+.title span {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  color: #1eb2a6;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+.title h2 {
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 1.4;
+}
 /* top section */
 .top .logo {
   line-height: 1.1;
@@ -111,9 +127,6 @@ a {
   }
 }
 /* header */
-header {
-  padding-top: 200px;
-}
 header span {
   font-weight: 700;
   color: rgba(255, 255, 255, 0.7);
@@ -143,5 +156,40 @@ header .btn:last-of-type {
   header .btn {
     width: 100%;
     margin-bottom: 5px;
+  }
+}
+/* learn section */
+.learn {
+  margin-top: -169px;
+  padding-top: 100vh;
+}
+.learn .icon {
+  color: #1eb2a6;
+  font-size: 50px;
+}
+.learn .item:first-of-type .icon {
+  font-size: 32px;
+}
+.learn p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999999;
+}
+.learn .item:hover {
+  background-color: #1eb2a6 !important;
+  color: white;
+}
+.learn .item:hover .icon {
+  color: white;
+}
+.learn .item:hover p {
+  color: white;
+}
+@media (max-width: 767px) {
+  .learn img {
+    opacity: 0;
+    display: none;
   }
 }
