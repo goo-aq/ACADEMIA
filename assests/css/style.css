@@ -22,9 +22,8 @@ a {
 .title span {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   color: #1eb2a6;
-  letter-spacing: 2px;
   margin-bottom: 5px;
 }
 .title h2 {
@@ -345,5 +344,59 @@ header .btn:last-of-type {
   }
   .ourcourses .color .btn a {
     color: white;
+  }
+}
+/* testimonial */
+.testimonial img {
+  height: 80px;
+  width: 80px;
+}
+.testimonial .img {
+  height: fit-content;
+  width: fit-content;
+}
+.testimonial .img span {
+  width: 30px;
+  height: 30px;
+  background-color: #1eb2a6;
+}
+.testimonial h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.8;
+  font-family: sans-serif;
+}
+.testimonial .student .text span {
+  font-size: 13px;
+  color: #1eb2a6;
+  font-weight: 500;
+}
+.testimonial p {
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999999;
+  margin-bottom: 50px;
+}
+.testimonial .carousel-indicators {
+  bottom: -60px;
+}
+.testimonial .carousel-indicators [data-bs-target] {
+  background-color: #1eb2a6;
+}
+@media (min-width: 1200px) {
+  .testimonial .color .item {
+    background-color: #1eb2a6 !important;
+  }
+  .testimonial .color .img span {
+    background-color: white;
+    color: #1eb2a6 !important;
+  }
+  .testimonial .color h4,
+  .testimonial .color .student span {
+    color: white;
+  }
+  .testimonial .color p {
+    color: rgba(255, 255, 255, 0.9);
   }
 }
