@@ -32,6 +32,49 @@ a {
   font-weight: 500;
   line-height: 1.4;
 }
+/* visiblity */
+@media (max-width: 767px) {
+  .midview {
+    opacity: 0;
+    display: none;
+  }
+  .largeview {
+    opacity: 0;
+    display: none;
+  }
+  .mobview {
+    opacity: 1;
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .mobview {
+    opacity: 0;
+    display: none;
+  }
+  .largeview {
+    opacity: 0;
+    display: none;
+  }
+  .midview {
+    opacity: 1;
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .mobview {
+    opacity: 0;
+    display: none;
+  }
+  .midview {
+    opacity: 0;
+    display: none;
+  }
+  .largeview {
+    opacity: 1;
+    display: block;
+  }
+}
 /* top section */
 .top .logo {
   line-height: 1.1;
@@ -194,29 +237,105 @@ header .btn:last-of-type {
   }
 }
 /* counter */
-.counter{
-    background-image: url(/assests/img/bg_3.jpg.webp);
-    background-position: center;
-    background-size: cover;
-    padding: 6em 0;;
+.counter {
+  background-image: url(/assests/img/bg_3.jpg.webp);
+  background-position: center;
+  background-size: cover;
+  padding: 6em 0;
 }
-.counter::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    height: 100%;
-    left: 0;
-    width: 100%;
-    background-color: black;
-    opacity: 0.3;
+.counter::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  opacity: 0.3;
 }
-.counter .icon{
-    font-size: 50px;
+.counter .icon {
+  font-size: 50px;
 }
-.counter h2{
-    font-weight: 700;
-    line-height: 1;
+.counter h2 {
+  font-weight: 700;
+  line-height: 1;
 }
-.counter span{
-    color: rgba(255, 255, 255, 0.9) !important;
+.counter span {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+/* our courses */
+.ourcourses {
+  padding: 8em 0;
+}
+.ourcourses .title {
+  margin-bottom: 90px;
+}
+.ourcourses .item {
+  padding: 30px 30px 40px 30px;
+  margin-bottom: 20px;
+}
+.ourcourses .icon {
+  background-color: #1eb2a6;
+  font-size: 50px;
+  height: 80px;
+  width: 80px;
+}
+.ourcourses .text {
+  width: calc(100% - 80px);
+  padding-left: 20px;
+}
+.ourcourses .rating {
+  color: #1eb2a6;
+  font-size: 14px;
+}
+.ourcourses img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.ourcourses .user span {
+  font-weight: 500;
+  color: #999999;
+  font-size: 16px;
+}
+.ourcourses a {
+  color: #1eb2a6;
+}
+.ourcourses .text a {
+  font-weight: 500;
+  font-size: 13px;
+}
+.ourcourses h3 {
+  line-height: 1.5;
+  font-size: 26px;
+  font-weight: 500;
+}
+.ourcourses p {
+  color: #1eb2a6;
+  font-weight: 500;
+  padding: 12px 0;
+}
+.ourcourses .btn {
+  border-color: #1eb2a6 !important;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.ourcourses .btn a {
+  line-height: 1.5;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.ourcourses .btn:hover {
+  background-color: #1eb2a6;
+}
+.ourcourses .btn:hover a {
+  color: white;
+}
+.ourcourses .carousel-indicators {
+  bottom: -60px;
+}
+.ourcourses .carousel-indicators [data-bs-target] {
+  background-color: #1eb2a6;
 }
