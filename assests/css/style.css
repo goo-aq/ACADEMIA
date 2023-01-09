@@ -339,3 +339,11 @@ header .btn:last-of-type {
 .ourcourses .carousel-indicators [data-bs-target] {
   background-color: #1eb2a6;
 }
+@media (min-width: 1200px) {
+  .ourcourses .color .btn {
+    background-color: #1eb2a6;
+  }
+  .ourcourses .color .btn a {
+    color: white;
+  }
+}
