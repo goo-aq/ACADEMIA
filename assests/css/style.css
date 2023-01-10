@@ -446,3 +446,21 @@ header .btn:last-of-type {
     color: rgba(255, 255, 255, 0.9);
   }
 }
+
+/* newsletter */
+.news {
+  background-color: #1eb2a6;
+}
+.news h4 {
+  font-size: 27px;
+  font-weight: 500;
+}
+.news p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+.news input::placeholder {
+  color: white;
+}
