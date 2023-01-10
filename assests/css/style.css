@@ -12,6 +12,7 @@ h1 {
 }
 a {
   text-decoration: none;
+  color: black;
 }
 .roboto {
   font-family: "Roboto", sans-serif;
@@ -345,6 +346,51 @@ header .btn:last-of-type {
   .ourcourses .color .btn a {
     color: white;
   }
+}
+/* courses */
+.courses .row > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+.courses .H3Font {
+  font-size: 20px;
+}
+.courses .H3Font {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  margin-top: 13px;
+  font-family: "Roboto", Arial, sans-serif;
+  padding-top: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.courses .item {
+  height: 242.8px;
+}
+.courses span {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 4px;
+  color: #1eb2a6;
+  width: fit-content;
+}
+.courses .icon {
+  color: #1eb2a6;
+  padding-top: 3px;
+}
+.courses .art {
+  background-color: #1eb2a6;
+}
+.courses .bg-white:hover {
+  color: white;
+  background-color: #1eb2a6 !important;
+}
+.courses .bg-white:hover .icon {
+  color: white;
 }
 /* testimonial */
 .testimonial img {
