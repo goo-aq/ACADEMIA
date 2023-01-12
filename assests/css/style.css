@@ -1,14 +1,22 @@
 body {
-  background-image: url(/assests/img/bg_1.jpg.webp);
+  margin-top: 100vh;
+  background-image: url(/assests/img/image_4.jpg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
 }
+.main-page body {
+  background-image: url(/assests/img/bg_1.jpg.webp);
+}
 h1 {
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 1.2;
+}
+.main-page h1 {
   font-weight: 600;
   font-size: 40px;
-  line-height: 1.2;
 }
 a {
   text-decoration: none;
@@ -116,6 +124,7 @@ a {
 }
 /* navbar */
 .navbar {
+  top: 94.2px;
   background-color: transparent !important;
 }
 .navbar .container-xl {
@@ -174,8 +183,13 @@ header span {
   font-weight: 700;
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
-  letter-spacing: 2px;
   margin-bottom: 5px;
+}
+.main-page header span{
+  letter-spacing: 2px;
+}
+header .link-row a:hover span{
+  color: #1eb2a6;
 }
 header p {
   color: rgba(255, 255, 255, 0.8);
@@ -202,10 +216,6 @@ header .btn:last-of-type {
   }
 }
 /* learn section */
-.learn {
-  margin-top: -169px;
-  padding-top: 100vh;
-}
 .learn .icon {
   color: #1eb2a6;
   font-size: 50px;
