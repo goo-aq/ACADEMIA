@@ -553,3 +553,62 @@ footer .copyrights {
 footer .copyrights a {
   color: #1eb2a6;
 }
+/* pricing section*/ 
+.paragraph1{
+  margin-top: 35px;
+  margin-bottom: 0;
+  color: #111111;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.doller{
+  font-size: 24px;
+  top: -0.8em;
+  color: gray;
+}
+.priceTag{
+  font-size: 50px;
+  font-weight: 600;
+  color: #1eb2a6;
+  margin-top: 20px;
+  
+}
+.description{
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999999;
+  margin: 40px;
+  padding-left: 3px;
+  padding-right: 3px;
+
+  
+}
+.btn{
+  border: 1px solid #1eb2a6 !important;
+  background: transparent !important;
+  color: #1eb2a6 !important;
+  width: 60%;
+  align-items: center;
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-bottom: 30px;
+}
+.btn:hover{
+  border: 1px solid transparent !important;
+  background: #1eb2a6 !important;
+  color: #fff !important;
+}
+
+
+
+
