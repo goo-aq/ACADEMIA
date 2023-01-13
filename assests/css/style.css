@@ -273,6 +273,9 @@ header .btn:last-of-type {
 .counter span {
   color: rgba(255, 255, 255, 0.9) !important;
 }
+.counter .level{
+  top: -100%;
+}
 /* our courses */
 .ourcourses {
   padding: 8em 0;
