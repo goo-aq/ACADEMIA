@@ -185,10 +185,10 @@ header span {
   font-size: 14px;
   margin-bottom: 5px;
 }
-.main-page header span{
+.main-page header span {
   letter-spacing: 2px;
 }
-header .link-row a:hover span{
+header .link-row a:hover span {
   color: #1eb2a6;
 }
 header p {
@@ -273,7 +273,7 @@ header .btn:last-of-type {
 .counter span {
   color: rgba(255, 255, 255, 0.9) !important;
 }
-.counter .level{
+.counter .level {
   top: -100%;
 }
 /* our courses */
@@ -459,7 +459,44 @@ header .btn:last-of-type {
     color: rgba(255, 255, 255, 0.9);
   }
 }
-
+/* ourblog */
+.OurBlog .image1 {
+  height: 300px;
+}
+.OurBlog .info {
+  color: #999999;
+  font-size: 13px !important;
+  margin-top: 8px;
+  font-weight: 1000;
+}
+.OurBlog .icon1 {
+  color: #1eb2a6;
+  margin-top: 8px;
+  font-size: small;
+  font-weight: 1000;
+}
+.OurBlog .first {
+  margin-right: 41px;
+  padding: 1px;
+}
+.OurBlog .third {
+  margin-left: 20px;
+  padding: 1px;
+}
+.OurBlog .title1 {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+.OurBlog .parag1 {
+  font-size: 18px;
+  color: #999999;
+  text-align: left;
+}
+.OurBlog .title1:hover {
+  color: #1eb2a6;
+}
 /* newsletter */
 .news {
   background-color: #1eb2a6;
