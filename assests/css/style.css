@@ -1,6 +1,6 @@
 body {
   margin-top: 100vh;
-  background-image: url(/assests/img/image_4.jpg.webp);
+  background-image: url(/assests/img/bg_2.jpg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -460,7 +460,7 @@ header .btn:last-of-type {
   }
 }
 /* ourblog */
-.OurBlog .image1 {
+.OurBlog .image {
   height: 300px;
 }
 .OurBlog .info {
@@ -469,33 +469,77 @@ header .btn:last-of-type {
   margin-top: 8px;
   font-weight: 1000;
 }
-.OurBlog .icon1 {
+.OurBlog .blog i {
   color: #1eb2a6;
-  margin-top: 8px;
-  font-size: small;
-  font-weight: 1000;
 }
-.OurBlog .first {
-  margin-right: 41px;
-  padding: 1px;
+.OurBlog .blog span {
+  line-height: 1.8;
+  color: #999999;
+  font-size: 13px;
+  font-weight: 600;
 }
-.OurBlog .third {
-  margin-left: 20px;
-  padding: 1px;
+.OurBlog .blog p:last-child span {
+  color: #1eb2a6;
 }
 .OurBlog .title1 {
   font-size: 24px;
   margin-top: 10px;
   margin-bottom: 25px;
   text-align: left;
+  font-weight: 400;
 }
 .OurBlog .parag1 {
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
   color: #999999;
   text-align: left;
 }
 .OurBlog .title1:hover {
   color: #1eb2a6;
+}
+/* pricing section*/
+.pricing .paragraph1 {
+  margin-top: 35px;
+  margin-bottom: 0;
+  color: #111111;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.pricing .doller {
+  font-size: 24px;
+  top: -0.8em;
+  color: gray;
+}
+.pricing .priceTag {
+  font-size: 50px;
+  font-weight: 600;
+  color: #1eb2a6;
+  margin-top: 20px;
+}
+.pricing .description {
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999999;
+  margin: 40px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.pricing .btn {
+  border-color: #1eb2a6;
+  color: #1eb2a6;
+  width: 60%;
+  margin: auto;
+  font-weight: 600;
+  font-size: 12px;
+  vertical-align: middle;
+  margin-bottom: 30px;
+}
+.pricing .btn:hover {
+  background: #1eb2a6;
+  color: #fff;
 }
 /* newsletter */
 .news {
@@ -524,7 +568,13 @@ footer .icon i {
   height: 40px;
   line-height: 40px;
 }
-footer li a {
+footer p {
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999999;
+}
+footer a {
   color: #666666;
   font-size: 16px;
   line-height: 1.8;
@@ -534,7 +584,7 @@ footer li a i {
   color: #1eb2a6;
   font-size: 10px;
 }
-footer li a:hover {
+footer a:hover {
   color: #1eb2a6;
 }
 footer img {
@@ -548,67 +598,14 @@ footer .text .meta a {
   font-weight: 400;
 }
 footer .copyrights {
-  background: #e9e9e9;
+  background-color: #e9e9e9;
+}
+footer .copyrights p {
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: 400;
 }
 footer .copyrights a {
   color: #1eb2a6;
-}
-/* pricing section*/ 
-.paragraph1{
-  margin-top: 35px;
-  margin-bottom: 0;
-  color: #111111;
-  text-transform: uppercase;
   font-size: 14px;
-  letter-spacing: 1px;
-  font-weight: 700;
 }
-
-.doller{
-  font-size: 24px;
-  top: -0.8em;
-  color: gray;
-}
-.priceTag{
-  font-size: 50px;
-  font-weight: 600;
-  color: #1eb2a6;
-  margin-top: 20px;
-  
-}
-.description{
-  font-size: 16px;
-  line-height: 1.8;
-  font-weight: 400;
-  color: #999999;
-  margin: 40px;
-  padding-left: 3px;
-  padding-right: 3px;
-
-  
-}
-.btn{
-  border: 1px solid #1eb2a6 !important;
-  background: transparent !important;
-  color: #1eb2a6 !important;
-  width: 60%;
-  align-items: center;
-  margin: auto;
-  text-transform: uppercase;
-  font-weight: 600;
-  border-radius: 4px;
-  font-size: 12px;
-  text-align: center;
-  text-decoration: none;
-  vertical-align: middle;
-  margin-bottom: 30px;
-}
-.btn:hover{
-  border: 1px solid transparent !important;
-  background: #1eb2a6 !important;
-  color: #fff !important;
-}
-
-
-
-
