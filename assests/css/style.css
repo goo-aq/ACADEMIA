@@ -672,3 +672,63 @@ footer .copyrights a {
   opacity: 1;
   display: block;
 }
+/* contact page */
+.contact h4 {
+  font-weight: 400;
+  font-size: 30px;
+}
+.contact p {
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999999;
+}
+.contact span {
+  font-size: 13px;
+  font-weight: 700;
+}
+.contact a {
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+.contact input,
+.contact textarea {
+  font-size: 14px;
+}
+.contact input::placeholder,
+.contact textarea::placeholder {
+  color: #b2b2b2;
+}
+.contact input:focus,
+.contact textarea:focus {
+  border-color: #1eb2a6 !important;
+  box-shadow: none;
+}
+.contact button {
+  background-color: #1eb2a6 !important;
+  border-color: #1eb2a6;
+  padding: 9px 12px;
+  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.contact h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.contact .links a {
+  color: #1eb2a6;
+  font-size: 13px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.contact .links a:hover {
+  color: #111111;
+}
+@media (max-width: 767px) {
+  .contact .map {
+    height: 70vh;
+  }
+}
