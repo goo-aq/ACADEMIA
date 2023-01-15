@@ -1,5 +1,5 @@
 body {
-  margin-top: 700px;
+  margin-top: 100vh;
   background-image: url(/assests/img/bg_2.jpg.webp);
   background-size: cover;
   background-repeat: no-repeat;
@@ -7,7 +7,6 @@ body {
   background-attachment: fixed;
 }
 .main-page body {
-  margin-top: 100vh;
   background-image: url(/assests/img/bg_1.jpg.webp);
 }
 h1 {
@@ -40,9 +39,6 @@ a {
   font-size: 46px;
   font-weight: 500;
   line-height: 1.4;
-}
-header:not(.main-page header){
-  height: 700px;
 }
 /* visiblity */
 @media (max-width: 767px) {
