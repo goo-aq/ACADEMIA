@@ -672,6 +672,36 @@ footer .copyrights a {
   opacity: 1;
   display: block;
 }
+/* pricing page */
+.faq .accordion .accordion-item {
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999999;
+}
+.faq .accordion .accordion-button {
+  font-weight: 600;
+  font-size: 18px;
+  box-shadow: none;
+}
+.faq .accordion .accordion-button.collapsed:hover {
+  color: #1eb2a6;
+}
+.faq .accordion .accordion-button:not(.collapsed) {
+  background: #1eb2a6;
+  color: #111111;
+}
+.faq .accordion .accordion-button:after {
+  line-height: 1;
+  color: #111111;
+  font-family: "Font Awesome 6 Free";
+  content: "\f078";
+  padding-left: 1px;
+}
+.faq .accordion .accordion-button:not(.collapsed)::after {
+  color: #fff;
+}
+
 /* contact page */
 .contact h4 {
   font-weight: 400;
