@@ -1,13 +1,13 @@
 body {
   margin-top: 100vh;
-  background-image: url(/assests/img/bg_2.jpg.webp);
+  background-image: url(../img/bg_2.jpg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
 }
 .main-page body {
-  background-image: url(/assests/img/bg_1.jpg.webp);
+  background-image: url(../img/bg_1.jpg.webp);
 }
 h1 {
   font-weight: 400;
